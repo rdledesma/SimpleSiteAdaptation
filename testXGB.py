@@ -19,7 +19,7 @@ for code in site_codes:
     site = Site(code)
 
     # Ajusta el path según cómo se llamen tus archivos CSV
-    csv_path = f"/home/inenco/Documentos/01_SiteAdaptation/{code.lower()}15.csv"
+    csv_path = f"/home/inenco/Documentos/01_SiteAdaptation/{code}_Test_15.csv"
     df_new = pd.read_csv(csv_path)
 
     # Agregar coordenadas
